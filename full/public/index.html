@@ -92,8 +92,14 @@ section[home] {
   }
 }
 #gallery{
-  padding-top: 125px !important;  /* 想多点就改成 120px */
+  padding-top: 100px !important;
 }
+
+.scroll-indicator {
+  position: absolute;
+  left: 80px;
+}
+
   </style>
   </head>
   <body class="position-relative"
@@ -161,6 +167,16 @@ section[home] {
       <div><a class="btn btn-primary d-block" href="register.html">Try 14 Days Free Trial</a></div>
     </nav>
   </div>
+<a href="#team" class="scroll-indicator">
+  <dotlottie-wc
+    src="Animation/scroll.json"
+    autoplay
+    loop
+    speed="1"
+    style="width: 80px; height: 80px;">
+  </dotlottie-wc>
+</a>
+
 </section>
 
 
@@ -877,9 +893,11 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
-
-
     <script src="js/main.js"></script>
+      <script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js"
+  type="module">
+</script>
   </div>
 </section>
 
