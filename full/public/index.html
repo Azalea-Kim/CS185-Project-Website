@@ -17,7 +17,7 @@
     .nav-link.active {
   color: #ffffff;
   font-weight: 600;
-  border-bottom: 2px solid #0d6efd; /* 可选 */
+  border-bottom: 2px solid #0d6efd;
 }
  .card-img-box {
   width: 100%;
@@ -43,11 +43,10 @@ section[home] {
   scroll-margin-top: 80px;
 }
 
-/* ===== 3D Carousel Section ===== */
 
 .carousel-3d-wrapper {
-  width: min(360px, 46vw);   /* iPad-ish width */
-  aspect-ratio: 4 / 3;       /* iPad 横屏比例（更像 iPad） */
+  width: min(360px, 46vw);
+  aspect-ratio: 4 / 3;
   margin: 0 auto;
   perspective: 3000px;
 }
@@ -84,7 +83,6 @@ section[home] {
     translateZ(400px);
 }
 
-/* 自动旋转动画 */
 @keyframes carousel-spin {
   from {
     transform: rotateY(0deg);
@@ -93,7 +91,9 @@ section[home] {
     transform: rotateY(360deg);
   }
 }
-
+#gallery{
+  padding-top: 125px !important;  /* 想多点就改成 120px */
+}
   </style>
   </head>
   <body class="position-relative"
@@ -117,7 +117,6 @@ section[home] {
     <li class="nav-item me-4"><a class="nav-link py-0" href="#video">Video</a></li>
   </ul>
 
-  <!-- App 不参与 ScrollSpy -->
   <div class="navbar-nav">
     <a class="py-0 nav-link border-start border-secondary-dark"
        href="https://cs185-gr6.onrender.com"
@@ -168,12 +167,12 @@ section[home] {
 <section id="gallery" class="py-12 py-lg-24 bg-dark">
   <div class="container text-center">
 
-    <h2 class="text-white mb-8">Rotating App Screens</h2>
-    <p class="text-white-50 mb-12">
+    <h2 class="text-white mb-8">Our Solution</h2>
+    <p class="text-white-50 mb-12" >
       A 3D rotating carousel to showcase key app screens.
     </p>
 
-    <div class="carousel-3d-wrapper">
+    <div class="carousel-3d-wrapper mt-8 mb-12">
       <div class="carousel-3d-ring" id="carouselRing">
         <img src="hexsmith-assets/images/headers/dashboard.png" style="--position:1;--quantity:5" alt="">
         <img src="hexsmith-assets/images/headers/dashboard.png" style="--position:2;--quantity:5" alt="">
