@@ -28,7 +28,8 @@
 @media (max-width: 767px) {
   .carousel-3d-wrapper {
     width: min(260px, 80vw);
-    aspect-ratio: 16 / 10;
+    height: 150px;
+    aspect-ratio: auto;
     perspective: 1500px;
   }
 
@@ -36,11 +37,6 @@
     transform:
       rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
       translateZ(220px);
-  }
-
-  .carousel-3d-item img {
-    object-fit: cover;
-    object-position: center;
   }
 }
 :root { scroll-padding-top: 80px; }
