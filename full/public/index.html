@@ -19,6 +19,24 @@
   font-weight: 600;
   border-bottom: 2px solid #0d6efd;
 }
+@media (min-width: 992px) {
+  .demo-video-section {
+    max-height: 500px;
+  }
+}
+
+    @media (max-width: 767px) {
+  .carousel-3d-wrapper {
+    width: min(260px, 80vw);
+    perspective: 1500px;
+  }
+
+  .carousel-3d-item {
+    transform:
+      rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
+      translateZ(220px);
+  }
+}
  .card-img-box {
   width: 100%;
   height: 210px;
@@ -248,7 +266,7 @@ background: conic-gradient(
     <h2 class="text-white mb-8">Our Solution</h2>
 <p class="text-white-50 mb-12">
   An active thinking space built on designers’ own visual vocabulary <br>
-  supporting annotation, search, and ideation in one workflow
+  Supporting annotation, search, and ideation in one workflow
 </p>
 
 <div style="height: 14px;"></div>
@@ -314,7 +332,7 @@ background: conic-gradient(
       <div class="col-12 col-lg-6 mb-14 mb-lg-0">
         <div class="mw-md mw-md-lg mx-auto mx-lg-0">
           <div class="d-flex mb-16"><span class="h1 text-secondary-dark">1</span>
-            <div class="ms-4 ms-sm-14"><span class="d-block fw-semibold text-white mb-4">Collect, revisit, and reinterpret your visual references with AI support.</span>
+            <div class="ms-4 ms-sm-14"><span class="d-block fw-semibold text-white mb-4">Collect, revisit, and reinterpret your visual references with AI support</span>
               <p class="text-secondary-dark mb-0">In ImageSpace, browse and annotate your personal collection of precedents. Each time you revisit an image, you can add a new interpretation, while AI helps generate tags from your annotations — capturing how your thinking evolves across projects and over time.</p>
             </div>
           </div>
@@ -451,15 +469,13 @@ background: conic-gradient(
 
 
         </div>
-        </div>
-      </div>
+
 
 
         <div class="row mx-xl-n8 mt-12">
         <div class="col-12 col-lg-4 px-xl-8 mb-16 mb-lg-0"><img class="card-img-box mb-5" src="images/GR4.png" alt=""/><span class="d-block mb-1 fw-semibold text-primary">GR4 Concept Video</span>
              <div class="mw-lg process-text-area">
               <p class="mw-sm fs-6 fw-semibold mb-4">We analyzed five competitors, defined key tasks, and produced a concept video showing IdeaScape’s core workflow and design vision.</p><span class="d-block fs-6 text-secondary-dark">Feb 6, 2026</span></div></a>
-
 <div class="d-flex justify-content-center mt-6">
   <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
      style="min-width: 170px;"
@@ -469,8 +485,26 @@ background: conic-gradient(
 <div style="width: 12px;"></div>
   <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
      style="min-width: 170px;"
-     href="https://youtu.be/qpXw6Mrnuso">
-    Video
+     href="https://drive.google.com/file/d/1B-fe1iFracVH0hzyfVhB9UJiHj79ypf5/view?usp=drive_link">
+    Video (MP4)
+  </a>
+
+
+</div>
+
+            <div class="d-flex justify-content-center mt-3">
+
+  <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;"
+     href="youtube.com/watch?v=qpXw6Mrnuso&source_ve_path=MTc4NDI0">
+    Video (Youtube)
+  </a>
+<div style="width: 12px;"></div>
+  <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px; opacity:0; pointer-events:none;"
+     href="https://drive.google.com/file/d/1yRv9l5QMIJS6VSCm8SuB57Rv-RA8doEl/view?usp=drive_link">
+
+    Pitch Slide (pdf)
   </a>
 
 
@@ -526,6 +560,23 @@ background: conic-gradient(
 
 
 </div>
+            <div class="d-flex justify-content-center mt-3">
+
+  <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;"
+     href="https://www.figma.com/proto/FD1eKQlNHlauzQeEu4K2KS/Team6_IdeaSpace?node-id=566-1185&p=f&t=mEd8n6INayV69RFW-0&scaling=scale-down&content-scaling=fixed&page-id=566%3A1185&starting-point-node-id=566%3A1312&show-proto-sidebar=1">
+    Figma Prototype
+  </a>
+<div style="width: 12px;"></div>
+  <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;opacity:0; pointer-events:none; "
+     href="https://docs.google.com/document/d/1iRkNO4YAN4IzVVERKMWnQoCOcgdVddLvDeMyEtiAZ0A/edit?usp=drive_link">
+
+    Pitch Script
+  </a>
+
+
+</div>
 
         </div>
         </div>
@@ -540,15 +591,16 @@ background: conic-gradient(
 
   <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
      style="min-width: 170px;"
-     href="https://docs.google.com/spreadsheets/d/1pzIp-i0C8YgB9eIAxTHXJ8dp0ctS6gTZaebFPhQqLog/edit?gid=0#gid=0">
-    Sheet (xlsx)
+          href="https://drive.google.com/file/d/1z-Ajtjq07DtIpu4_rUlGYcU2S58DpoPB/view?usp=drive_link">
+
+    Slides (pdf)
+
   </a>
 <div style="width: 12px;"></div>
   <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
-     style="min-width: 170px;opacity:0; pointer-events:none;"
-     href="#">
-
-    Slides (pptx)
+     style="min-width: 170px;"
+        href="https://docs.google.com/spreadsheets/d/1pzIp-i0C8YgB9eIAxTHXJ8dp0ctS6gTZaebFPhQqLog/edit?usp=drive_link">
+    Sheet (xlsx)
   </a>
 
 
@@ -581,6 +633,24 @@ background: conic-gradient(
 
 </div>
 
+            <div class="d-flex justify-content-center mt-3">
+
+  <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;"
+     href="https://docs.google.com/document/d/1OdymXRSwCAve9UUAr6IuOMgVravqO1f7aPqVGQKV5iA/edit?usp=sharing">
+    README
+  </a>
+<div style="width: 12px;"></div>
+  <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px; opacity:0; pointer-events:none;"
+     href="https://docs.google.com/document/d/1iRkNO4YAN4IzVVERKMWnQoCOcgdVddLvDeMyEtiAZ0A/edit?usp=drive_link">
+
+    Pitch Script
+  </a>
+
+
+</div>
+
         </div>
         <div class="col-12 col-lg-4 px-xl-8 mb-16 mb-lg-0"><img class="card-img-box mb-5" src="images/GR9.png" alt=""/><span class="d-block mb-1 fw-semibold text-primary">GR9 Poster, Pitch & Video Prototype</span>
              <div class="mw-lg process-text-area">
@@ -600,7 +670,7 @@ background: conic-gradient(
      href="https://docs.google.com/presentation/d/1XARunIOEyxmn7IKeg515pPXI19ULICRcD-habFla6Ag/edit?usp=drive_link">
 
 
-    Pitch Slide
+    Pitch Slide (pdf)
   </a>
 
 
@@ -610,7 +680,7 @@ background: conic-gradient(
   <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
      style="min-width: 170px;"
      href="https://drive.google.com/file/d/1_SwXCuaPotk0kpAiNvQ5-YLfqVOkEfpB/view?usp=drive_link">
-    Video
+    Video (MP4)
   </a>
 <div style="width: 12px;"></div>
   <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
@@ -618,6 +688,23 @@ background: conic-gradient(
      href="https://docs.google.com/document/d/1iRkNO4YAN4IzVVERKMWnQoCOcgdVddLvDeMyEtiAZ0A/edit?usp=drive_link">
 
     Pitch Script
+  </a>
+
+
+</div>
+              <div class="d-flex justify-content-center mt-3">
+
+  <a class="btn btn-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;"
+     href="https://docs.google.com/document/d/1OdymXRSwCAve9UUAr6IuOMgVravqO1f7aPqVGQKV5iA/edit?usp=sharing">
+    Video (Youtube)
+  </a>
+<div style="width: 12px;"></div>
+  <a class="btn btn-outline-primary d-flex align-items-center justify-content-center px-4"
+     style="min-width: 170px;"
+     href="https://docs.google.com/document/d/1iRkNO4YAN4IzVVERKMWnQoCOcgdVddLvDeMyEtiAZ0A/edit?usp=drive_link">
+
+    Pitch Slide
   </a>
 
 
@@ -662,6 +749,8 @@ background: conic-gradient(
 
     </div>
   </div>
+            </div>
+      </div>
 </section>
 <section id="video" class="py-12 py-md-24 py-lg-32">
   <div class="container">
@@ -682,15 +771,12 @@ Actor: Yanxiu Jin
 </p>
         </div>
       </div>
-      <div class="col-12 col-lg-6">
-<div class="ratio ratio-16x9">
-  <iframe
-    src="https://www.youtube.com/embed/qpXw6Mrnuso"
-    title="YouTube video"
-    allowfullscreen
-    class="rounded-3">
-  </iframe>
-</div>
+<div class="col-12 col-lg-6">
+  <div class="ratio ratio-16x9">
+    <video controls class="rounded-3 w-100 h-100">
+      <source src="/files/Concept_Video.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
 
     </div>
@@ -700,7 +786,7 @@ Actor: Yanxiu Jin
 <section class="py-12 py-lg-24 bg-dark">
   <div class="container">
 <section class="position-relative px-8 px-md-11 py-8 mb-16 bg-white rounded-4 overflow-hidden"
-     style="max-height:500px;"><img class="position-absolute top-0 start-0 w-100 h-100" src="hexsmith-assets/images/gradient.png" alt=""style="z-index: 0;"/>
+    ><img class="position-absolute top-0 start-0 w-100 h-100 demo-video-section" src="hexsmith-assets/images/gradient.png" alt=""style="z-index: 0;"/>
        <div class="position-relative" style="z-index: 1;"> <div class="container">
     <div class="row align-items-end">
       <div class="col-12 col-lg-6 mb-32 mb-lg-0">
