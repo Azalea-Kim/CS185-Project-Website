@@ -142,12 +142,17 @@ background: conic-gradient(
   padding-top: 100px !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   .carousel-3d-wrapper {
     width: min(260px, 70vw);
     height: min(195px, 52.5vw);
       aspect-ratio: unset; /* 严格保持 4:3，= width * 3/4 */
     perspective: 1500px;
+  }
+    .carousel-3d-item {
+    transform:
+      rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
+      translateZ(300px);
   }
 }
 
