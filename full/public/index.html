@@ -24,31 +24,9 @@
     max-height: 500px;
   }
 }
-    @media (max-width: 1024px) {
-  .carousel-3d-wrapper {
-    width: min(260px, 80vw);
-    perspective: 1500px;
-  }
 
-  .carousel-3d-item {
-    transform:
-      rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
-      translateZ(220px);
-  }
-}
 
-    @media (max-width: 767px) {
-  .carousel-3d-wrapper {
-    width: min(260px, 80vw);
-    perspective: 1500px;
-  }
 
-  .carousel-3d-item {
-    transform:
-      rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
-      translateZ(220px);
-  }
-}
  .card-img-box {
   width: 100%;
   height: 210px;
@@ -162,6 +140,19 @@ background: conic-gradient(
 }
 #gallery{
   padding-top: 100px !important;
+}
+
+   @media (max-width: 1024px) {
+  .carousel-3d-wrapper {
+    width: min(260px, 80vw);
+    perspective: 1500px;
+  }
+
+  .carousel-3d-item {
+    transform:
+      rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
+      translateZ(220px);
+  }
 }
 
 .scroll-indicator {
